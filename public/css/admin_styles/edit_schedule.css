@@ -1,0 +1,16 @@
+
+
+.row  {
+    
+    display: inline-block;
+  }
+ .row div label {
+      margin-top: 10px;
+  }
+ .row div .time {
+      margin-top: 20px;
+      width: 200px;
+      height: 30px;
+      padding-left: 10px;
+      outline: none;
+  }

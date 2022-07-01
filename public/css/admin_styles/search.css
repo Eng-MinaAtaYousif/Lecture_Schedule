@@ -1,0 +1,212 @@
+*{
+    padding: 0%;
+    margin:0%;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+}
+.container form{
+    display: none;
+}
+.container form > div{
+    display: flex;
+    flex-direction: row;
+    
+    margin-bottom: 30px;
+
+    
+   
+}
+
+.container form > div .form-group {
+    width: 100%;
+
+}
+.container form > div .form-group input {
+    margin-right: 20px;
+    width: 100%;
+}
+.id  button {
+   
+
+    color: white;
+    
+}
+
+.container .username-password-search div .form-group input {
+    width: 95%;
+}
+
+.container > h1 {
+   
+    font-size: 30px;
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.container > h2 {
+    width: 100%;
+    margin-bottom: 30px;
+    border: 1px solid #000;
+    cursor: pointer;
+    height: auto;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    padding-left:30px ;
+    font-size: 30px;
+    padding-right: 10px;
+}
+
+ .container > a {
+    width: 50%;
+    margin: 30px auto;
+
+}
+
+.data{
+    width: 80%;
+    height: auto;
+    min-height: 300px;
+    overflow-y: scroll;
+    /* border: 1px solid #000; */
+    z-index: 1;
+    left: 280px;
+    top: 100px;
+    margin: 20px auto;
+    background-color: rgb(235, 229, 229);
+    min-height: 500px;
+
+
+}
+.load{
+    display: grid;
+    grid-template-columns: 1fr;
+     width: 60%;
+     margin: 50px auto;
+     left: 45px;
+     text-align: center;
+    
+
+  
+   
+  
+ }
+ .load p {
+     margin-top: 50px;
+     font-size: 30px;
+     -ms-flex-align: center;
+ }
+ .loader {
+     border: 16px solid #f3f3f3; /* Light grey */
+     border-top: 16px solid #3498db; /* Blue */
+     border-radius: 50%;
+     width: 120px;
+     height: 120px;
+     animation: spin 2s linear infinite;
+     opacity: 1;
+     justify-self: center;
+    
+ 
+     
+ 
+   }
+   
+   .data > a {
+    width: 20%;
+    float: right;
+    height: auto;
+    margin-bottom:20px ;
+    margin-right: 20px;
+    font-size: 20px;
+    margin-top: 150px;
+    display: none;
+    
+   }
+   .data .real-data h1 {
+    font-size: 30px;
+    margin-top: 10px;
+    margin-left: 30px;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif
+   }
+   @keyframes spin {
+     0% { transform: rotate(0deg); }
+     100% { transform: rotate(360deg); }
+   }
+
+
+.real-data {
+    display: none ;
+}
+   .table {
+    width: 90%;
+    margin: 20px auto;
+    /* border: 1px solid #000; */
+    padding-top: 30px;
+    margin-top: 50px;
+   }
+   table tr td {
+    font-size: 25px;
+    /* background-color: #fff; */
+   }
+
+   table th{
+    font-size: 20px;
+    color: white;
+    height:auto;
+    padding: 10px;
+   }
+   
+   .wrong_id , .wrong_username {
+    display: none;
+   }
+@media screen and (max-width:600px) {
+    .data{
+        width: 80%;
+        height: auto;
+        min-height: 300px;
+        left: 45px;
+        margin: 20px auto;
+        min-height: 200px;
+         max-height: auto;
+        /* border: 1px solid #000; */ 
+        position: absolute;
+        z-index: 1;
+        top: 100px;
+        margin: 20px auto;
+       
+        
+       
+    }
+    .load{
+        display: grid;
+        grid-template-rows: 3fr 1fr;
+        width: 100%;
+        margin: 50px auto;
+        /* left: 45px; */
+        text-align: center;
+       
+        /* padding-left: 100px; */
+   
+      
+     
+    }
+    .loader
+     {
+        border: 16px solid #f3f3f3; /* Light grey */
+        border-top: 16px solid #3498db; /* Blue */
+        border-radius: 50%;
+        width: 120px;
+        height: 120px;
+        animation: spin 2s linear infinite;
+        opacity: 1;
+        justify-self: center;
+ 
+    
+        }
+        .load p {
+            margin-top: 100px;
+            font-size: 20px;
+            text-align: center;
+            width: 50%;
+            margin: auto auto;
+        }
+}

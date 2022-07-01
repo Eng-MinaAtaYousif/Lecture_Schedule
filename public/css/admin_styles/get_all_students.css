@@ -1,0 +1,22 @@
+*{
+    padding: 0%;
+    margin: 0%;
+    box-sizing: border-box;
+}
+
+.real-data ul li {
+  margin-top: 10px;
+  padding: 20px;
+  color: white;
+}
+.table tr td {
+    font-size: 25px;
+    /* background-color: #fff; */
+   }
+   .table tr th {
+    font-size: medium;
+
+   }
+   .table tr th, td {
+    border: 1px solid #000;
+   }

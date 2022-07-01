@@ -1,0 +1,66 @@
+.navbar-left{
+    display:flex;
+    flex-direction: row;
+    margin-top: 30px;
+    width: 80%;
+    margin:30px auto;
+   
+}
+.navbar-left >div{
+    width: 90%;
+}
+.navbar-left >div> input {
+    width: 100%;
+    height:45px;
+    padding-left: 20px;
+    font-size: 25px;
+    outline: none;
+    border-bottom:1px solid  black;
+}
+.navbar-left > button {
+    width: 10%;
+    display: flex;
+    flex-direction: row;
+    font-size: 100%;
+    text-align: center;
+    color:white;
+   
+}
+
+.table tr,th,td {
+    border: 1px solid #fff;
+}
+
+
+.table{
+   
+    width: 80%;
+    margin: 30px auto;
+    background-color: black;
+}
+
+h1{
+
+    font-size: 30px;
+    text-align: center;
+    margin-top: 30px;
+
+}
+th > div {
+    display: flex;
+    flex-direction: row;
+}
+th > div > svg {
+    margin-left: 3px;
+    margin-right: 3px;
+}
+
+.up{
+    position: fixed;
+    float:right;
+    top: 600px;
+    left: 92%;
+    right: 10%;
+    cursor: pointer;
+}
+
